@@ -1,2 +1,2 @@
 'use strict';
-(function(){setInterval((function(){location.reload();}),5000)})();
+//(function(){setInterval((function(){location.reload();}),5000)})();
