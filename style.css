@@ -75,13 +75,35 @@ h2 {
   text-decoration: underline;
   padding: 0 4px;
 }
+
+
+/* budget-specific */
+
 .paragraph {
   font-weight: 400;
   width: 600px;
   max-width: 60%;
 }
-
-/* budget-specific */
+.pie {
+  width: 250px;
+  height: auto;
+  max-width: 80%;
+}
+.piebox {
+  width: 400px;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+}
+.piebox * {
+  display: inline-block;
+}
+.piepbox {
+  width: 150px;
+}
+.piepbox .paragraph {
+  max-width: 100%;
+}
 
 /* nutrition-specific */
 /* The side navigation menu */
